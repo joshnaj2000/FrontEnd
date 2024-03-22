@@ -1,0 +1,102 @@
+
+
+body {
+    content:"";
+    position:fixed;
+    width: 100%;
+    height: 100%;
+    background-image: url("https://static1.squarespace.com/static/552fa3aee4b07a06ad546a0c/t/5745a5f8859fd00ec4cc7ba3/1464182970036/?format=1500w");
+    background-repeat: no-repeat;
+    background-size: cover;
+    opacity: 0.7; 
+    z-index: -1;
+ }
+
+.section.two {
+    width: 50%;
+    color:#000000;
+    background-color: #f5f2f2;
+    display: block;
+    margin-left: 25%;
+    /* margin-top: 15%; */
+}
+
+
+#card td {
+    padding: 10px;
+    border-bottom: 1px solid #161111;
+    font-size: 20px;
+    font-weight: 1000;
+}
+
+
+h1{
+    text-align: center;
+    margin-top: 5px;
+    font-weight:bolder;
+}
+
+
+#back {
+    text-align: center;
+    width: 20px;
+    margin-left:2%;
+    padding: 10px 20px;
+    border-radius: 5px;
+    margin-top: 10%; 
+    background-color: #ffffff;
+}
+
+#back:hover {
+    background-color: #777778;
+} 
+
+li {
+    display: flex;
+    padding: 10px 0;
+    text-align: center;
+}
+
+a {
+    font-weight: bolder;
+    text-align: center;
+    text-decoration: none;
+    color: #000000;
+    display: block;
+    padding: 0px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

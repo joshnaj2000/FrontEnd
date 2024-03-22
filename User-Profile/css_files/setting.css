@@ -1,0 +1,175 @@
+
+body::before {
+  content:"";
+  position:fixed;
+  width: 100%;
+  height: 100%;
+  background-image: url("https://static1.squarespace.com/static/552fa3aee4b07a06ad546a0c/t/5745a5f8859fd00ec4cc7ba3/1464182970036/?format=1500w");
+  background-repeat: no-repeat;
+  background-size: cover;
+  opacity: 0.3; 
+  z-index: -1;
+}
+
+
+  .section {
+    width: 50%;
+    margin: 50px auto; 
+    padding: 20px;
+    border: 1px solid #cac4c4; 
+    border-radius: 5px; 
+    background-color: #dad2d2; 
+  }
+  .section h1 {
+    text-align: center; 
+    margin-bottom: 20px; 
+  }
+  
+ 
+  #set {
+    display: flex;
+    justify-content: space-between; 
+    list-style: none; 
+    padding: 0;
+    margin: 0; 
+  }
+
+  #set ul{
+    margin-left: 130px;
+  }
+  
+  #set li {
+    display: inline-block; 
+    margin: 0 10px; 
+  }
+  
+  #set a {
+    text-decoration: none;
+    color: #000;
+    padding: 10px 20px; 
+  }
+  
+  #set a:hover {
+    background-color: #eee; 
+  }
+  
+  .edit_data,
+  .password {
+    margin-top: 20px; 
+  }
+  
+  label {
+    display: block; 
+    margin-bottom: 5px; 
+  }
+  
+  input[type="text"],
+  input[type="password"] {
+    height: 40px;
+    width: 80%; 
+    border: 1px solid #1f1e1e; 
+    border-radius: 5px; 
+  }
+  
+  .button {
+    text-align: center;
+    margin-top: 20px; 
+  }
+  
+  button {
+    padding: 10px 20px; 
+    border: none; 
+    border-radius: 5px; 
+    background-color: #3a3b3a;
+    color: white; 
+    cursor: pointer; 
+  }
+  
+  button:hover {
+    background-color: #d5d8d5; }
+  
+#password button{
+    margin-left: 45%;
+}
+
+
+
+
+#back {
+  text-align: center;
+  width: 20px;
+  margin-left:2%;
+  padding: 10px 20px;
+  border-radius: 5px;
+  background-color: #ffffff;
+}
+
+#back:hover {
+  background-color: #777778;
+} 
+
+li {
+  display: flex;
+  padding: 10px 0;
+  text-align: center;
+}
+
+a {
+  text-align: center;
+  text-decoration: none;
+  color: #000000;
+  display: block;
+  padding: 0px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ 
+
+
+
+
+
+
+ 

@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Settings</title>
+    <link rel="stylesheet" href="../css_files/setting.css">
+    <header id="back">
+        <li><a href="user.html">Back</a></li>
+    </header>
+    
+</head>
+<body>
+
+
+    <div id="setting" class="section three">
+        <h1>Settings</h1>
+        <nav id="set">    
+            <ul>
+
+                <li><a href="#edit_data">Edit Profile</a></li>
+                <li><a href="#password">Change Password </a></li> 
+            </ul>
+        </nav>
+    </div>
+
+    
+    
+    <div class="section1" id="edit_data">
+        <h1>EDIT</h1>
+        <div>
+            <label for="address">Home Address</label><br>
+            <input type="text" id="address" />
+        </div><br>
+        <div>
+            <label for="Street">Street</label><br>
+            <input type="text" id="Street" />
+        </div><br>
+        <div>
+            <label for="municipality">Municipality:</label><br>
+            <input type="text" id="municipality">
+        </div><br>
+        <div>
+            <label for="state">State</label><br>
+            <input type="text" id="state">
+        </div><br>
+        <div>
+            <label for="native">Native</label><br>
+            <input type="text" id="native">
+        </div><br>
+        <div>
+            <label for="Emergency Contact">Emergency contact</label><br>
+            <input type="text" id="Emergencycontact">
+        </div><br>
+
+        <div class="button">
+            <button id="submit" type="submit">Submit</button>
+        </div>
+    </div>
+
+
+
+
+
+    <div class="section2" id="password">
+        <h1> Change Password</h1>
+
+        <label for="Old Password">Old Password</label><br>
+        <input type="password" id="old"><br>
+        <label for="New Password">New Password</label><br>
+        <input type="password" id="new"><br>
+        <label for="Confirm Password">Confirm Password</label><br>
+        <input type="password" id="confirm"><BR>
+        <button type="button" id="btn">Submit</button>
+    </div>
+
+    
+</body>
+</html>

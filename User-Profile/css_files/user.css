@@ -1,0 +1,61 @@
+
+header {
+    content: "";
+    background-image: url("https://cdn.pixabay.com/photo/2018/03/10/20/54/building-3215255_640.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    opacity:0.6;
+    color: #000000;
+    text-align: center;
+    padding: 60px 0;
+    width: 100%;
+}
+
+#list {
+    background-color: #fafafa00;
+    color: #00000001;
+    display: flex;
+    justify-content: center;
+}
+
+#list {
+    display: flex;
+}
+
+ul {
+    display: flex;
+    list-style-type: none;
+}
+
+li {
+    display: flex;
+    padding: 10px 0;
+    text-align: center;
+}
+
+a {
+    text-decoration: none;
+    color: #000000;
+    display: block;
+    padding: 10px;
+}
+
+a:hover {
+    background-color: #ddd;
+}
+
+
+
+#profile img {
+    height: 200px;
+    border-radius: 50%;
+    object-fit: cover;
+}
+
+
+
+
+
+
+
+
