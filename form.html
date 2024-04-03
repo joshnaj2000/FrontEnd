@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Form</title>
+    <link rel="stylesheet" href="form.css" />
+  </head>
+  <body>
+    <template id="form_valid" class="form">
+        <h1>SIGNUP</h1>
+        <form><br>
+        <label for="username">User Name</label><br>
+        <input type="text" id="username"/><br>
+        <span id="username-error"></span> </div><br>
+        <label for="usertype">User Type</label><br>
+        <select id="type" name="usertype">
+          <option  disabled selected>Select One</option>
+          <option value="admin" id="usertype1">ADMIN</option>
+          <option value="client" id="usertype2">CLIENT</option>
+          </select><br>
+          <span id="usertype-error"></span> </div><br>
+        <label for="contactnumber">Contact Number</label><br>
+        <input type="text" id="contactnumber" /><br>
+        <span id="contact-error"></span> </div><br>
+
+        <label for="email">Email Id</label><br>
+        <input type="text" id="email" /><br>
+        <span id="email-error"></span> </div><br>
+
+        <label for="city">City</label><br>
+        <input type="text" id="city"/><br>
+        <span id="city-error"></span> </div><br>
+
+        <label for="state">State</label><br>
+        <input type="text" id="state"/><br>
+        <span id="state-error"></span> </div><br>
+        <button type="submit" id="submit">SUBMIT</button><br>
+        <span id="final-error"></span>
+
+
+      </form>
+    </template>
+    <div id="app"></div>
+    <script src="../form_validation/src/form.js"></script> 
+  </body>
+</html>
